@@ -12,7 +12,7 @@ def square_array(array)
   new_array
 end
 square_array(array)
-=end
+
 
 
 def square_array(array)
@@ -21,3 +21,8 @@ def square_array(array)
   end
 end
 square_array(array)
+=end
+
+
+i = array.each
+array.collect { |i| i ** i }
