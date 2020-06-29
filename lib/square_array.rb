@@ -1,19 +1,20 @@
 array = [1, 2, 3]
+new_array = []
 
+
+=begin
 def square_array(array)
   count = 0
-  new_array = []
   while count < array.length-1 do
-    array.each(array[count] + 1)
+    new_array.push(array[count] * 2)
     count += 1
   end
   new_array
 end
 square_array(array)
+=end
 
-=begin
-array = [1, 2, 3]
-#new_array = []
+
 def square_array(array)
   count = 0
   while count < array.length-1 do
@@ -23,4 +24,3 @@ def square_array(array)
   #new_array
 end
 square_array(array)
-=end
