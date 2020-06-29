@@ -1,10 +1,8 @@
 array = [1, 2, 3]
-new_array = [square_array(array).collect]
+new_array = []
 def square_array(array)
-  count = 0
   while array[count] do
-    array[count] ** array[count]
-    count += 1
+    map(array.each)
   end
   new_array
 end
