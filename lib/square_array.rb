@@ -18,7 +18,7 @@ array = [1, 2, 3]
 
 def square_array(array)
 
-  while array.each < array.length do
+  while array.each do
     puts array.each  ** array.each
 
   end
