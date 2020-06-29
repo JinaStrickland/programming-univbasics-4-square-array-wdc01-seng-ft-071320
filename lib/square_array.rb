@@ -13,5 +13,5 @@ end
 
 
 
-  i = array.each
-  array.collect { |i| i ** i }
+i = array.each
+array.collect { |i| i ** i }
