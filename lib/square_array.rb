@@ -1,5 +1,5 @@
 array = [1, 2, 3]
-new_array = []
+#new_array = []
 
 
 =begin
@@ -23,5 +23,5 @@ def square_array(array)
   while array.each < array.length-1 do
     i ** i
   end
-  new_array
+  #new_array
 end
