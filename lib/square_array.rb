@@ -2,7 +2,7 @@ array = [1, 2, 3]
 #new_array = []
 def square_array(array)
   while array.each == array.length-1 do
-    puts map.array.each
+    array.each + array.each_char { |chr|  }
   end
   #new_array
 end
