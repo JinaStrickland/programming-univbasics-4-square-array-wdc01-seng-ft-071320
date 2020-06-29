@@ -1,8 +1,9 @@
 array = [1, 2, 3]
-new_array = []
+
 
 def square_array(array)
   i = 0
+  new_array = []
   while i < array.length-1 do
     new_array.push(array[i] ** array[i])
     i += 1
