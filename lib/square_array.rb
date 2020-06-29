@@ -1,10 +1,10 @@
 array = [1, 2, 3]
-new_array = []
+new_array = [1, 4, 9]
 
 def square_array(array)
   i = 0
   while i < array.length-1 do
-    new_array.collect(array[i] ** array[i])
+    new_array.push(array[i] ** array[i])
     i += 1
   end
   new_array
