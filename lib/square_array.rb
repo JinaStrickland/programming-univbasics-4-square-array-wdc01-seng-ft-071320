@@ -17,8 +17,8 @@ counter = 0
 array = [1, 2, 3]
 
 def square_array(array)
-  while array.length < counter do
-    puts array.length  ** array.length
+  while array.each < counter do
+    puts array.each  ** array.each
     counter += 1
   end
 end
