@@ -17,7 +17,8 @@ new_array = []
 def square_array(array)
 
   while array.each do
-    puts array[i].each  ** array[i].each
+    i = array.each[]
+    puts i  ** i
 
   end
   new_array[square_array(array)]
