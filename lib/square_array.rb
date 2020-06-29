@@ -16,8 +16,8 @@ array.collect { |i| i ** i }
 =end
 
 def square_array(array)
-  i = array.each
-  while array.each < array.length-1 do
+  i = array[]
+  while array[] < array.length-1 do
     new_array.collect(array.each ** array.each)
   end
   new_array
