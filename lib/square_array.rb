@@ -22,6 +22,3 @@ end
 
 i = array.each
 array.collect { |i| i ** i }
-
-
-
