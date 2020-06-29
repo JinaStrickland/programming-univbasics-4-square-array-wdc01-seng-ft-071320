@@ -10,7 +10,7 @@ def square_array(array)
 end
 square_array(array)
 
-
+=begin
 array = [1, 2, 3]
 #new_array = []
 def square_array(array)
@@ -22,3 +22,4 @@ def square_array(array)
   #new_array
 end
 square_array(array)
+=end
