@@ -15,3 +15,4 @@ def square_array(array)
 
   i = array.each
   new_array = array.collect { |i| i ** i }
+new_array
