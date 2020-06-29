@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  while xxx do
+    
+  end
+
+  
 end
