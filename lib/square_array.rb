@@ -13,13 +13,13 @@ def square_array(array)
 
 
 
-counter = 0
+count = 0
 array = [1, 2, 3]
 
 def square_array(array)
-  while array.each < counter do
+  while array.each < count do
     puts array.each  ** array.each
-    counter += 1
+    count += 1
   end
 end
 
