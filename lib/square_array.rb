@@ -12,16 +12,17 @@ def square_array(array)
   new_array
 end
 square_array(array)
-
+=end
 
 
 def square_array(array)
+  i = array.each
   while array.each < array.length-1 do
-    array.each * array.each
+    i * i
   end
 end
 square_array(array)
-=end
+
 
 
 i = array.each
