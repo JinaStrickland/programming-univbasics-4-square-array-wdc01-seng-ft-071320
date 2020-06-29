@@ -3,7 +3,7 @@ new_array = []
 
 
 def square_array(array)
-  #i = array.each
+  i = array.each
   while array.each < array.length-1 do
     new_array.collect(array.each ** array.each)
   end
