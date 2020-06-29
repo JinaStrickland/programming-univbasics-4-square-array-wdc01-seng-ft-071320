@@ -23,14 +23,14 @@ def square_array(array)
 
 
 array = [1, 2, 3]
-new_array(square_array(array)) = []
+
 def square_array(array)
   count = 0
   while array[count] do
     puts array[count] ** array[count]
     count += 1
   end
-  new_array
+  new_array(square_array(array)) = []
 end
 
 
