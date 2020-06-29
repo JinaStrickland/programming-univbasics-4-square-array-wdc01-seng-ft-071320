@@ -1,5 +1,5 @@
 array = [1, 2, 3]
-#new_array = []
+new_array = []
 
 
 =begin
@@ -21,7 +21,7 @@ array.collect { |i| i ** i }
 def square_array(array)
   i = array.each
   while array.each < array.length-1 do
-    i ** i
+    new_array.collect(i ** i)
   end
   #new_array
 end
