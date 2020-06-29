@@ -1,7 +1,7 @@
 array = [1, 2, 3]
 #new_array = []
 def square_array(array)
-  while array.each do
+  while array.each < array.length-1 do
     array.each + array.each
   end
   #new_array
