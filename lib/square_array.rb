@@ -1,5 +1,5 @@
 array = [1, 2, 3]
-new_array = []
+
 def square_array(array)
   count = 0
   new_array = []
