@@ -30,7 +30,7 @@ def square_array(array)
     puts array[count] ** array[count]
     count += 1
   end
-  new_array[square_array(array)]
+  new_array
 end
 
 
