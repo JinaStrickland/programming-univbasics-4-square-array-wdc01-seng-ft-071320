@@ -16,4 +16,4 @@ def square_array(array)
   i = array.each
   array.collect { |i| i ** i }
 end
-square_array
+square_array(array)
