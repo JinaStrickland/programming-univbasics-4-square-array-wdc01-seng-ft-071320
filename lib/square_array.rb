@@ -16,11 +16,8 @@ square_array(array)
 
 
 def square_array(array)
-  count = 0
-  while count < array.length-1 do
-    new_array.each(array[count] * 2)
-    count += 1
+  while array.each < array.length-1 do
+    array.each * array.each
   end
-  #new_array
 end
 square_array(array)
