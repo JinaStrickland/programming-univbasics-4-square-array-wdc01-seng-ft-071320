@@ -23,5 +23,5 @@ def square_array(array)
   while array.each < array.length-1 do
     new_array.collect(array.each ** array.each)
   end
-  #new_array
+  new_array
 end
