@@ -23,7 +23,7 @@ def square_array(array)
 
 
 array = [1, 2, 3]
-#def square_array(array)
+def square_array(array)
 count = 0
 while array[count] do
   puts array[count] + 1
