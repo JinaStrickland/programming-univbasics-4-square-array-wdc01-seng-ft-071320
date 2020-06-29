@@ -3,8 +3,8 @@ new_array = []
 
 def square_array(array)
   i = array[]
-  while array[] < array.length-1 do
-    new_array.collect(array[] ** array[])
+  while i < array.length-1 do
+    new_array.collect(array[i] ** array[i])
   end
   new_array
 end
