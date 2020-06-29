@@ -12,14 +12,11 @@ def square_array(array)
 
 
 
-
-
 array = [1, 2, 3]
 
 def square_array(array)
-
   while array.each do
-    puts array.each  ** array.each
+    puts array.each[i]  ** array.each[i]
 
   end
 end
